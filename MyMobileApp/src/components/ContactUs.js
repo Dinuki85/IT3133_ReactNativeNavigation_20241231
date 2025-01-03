@@ -11,6 +11,11 @@ export default function ContactUs() {
                 behavior={Platform.OS === 'ios' ? 'padding' : 'height'} style={StyleSheet.KeyboardAvoidingView}
             >
                 <ScrollView contentContainerStyle={Styles.ScrollView}>
+                    <View style={styles.Container}>
+                        <View styele={styles.header}>
+                            <Text variant="headingLarge">Contact Us</Text>
+                            <Divider/>
+                        </View>
                     <view style={Styles.body}>
                         <Text variant='bodyMedium'>
                             Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.
@@ -21,6 +26,7 @@ export default function ContactUs() {
 
                         </Text>
                     </view>
+                    </View>
                 </ScrollView>
             </KeyboardAvoidingView>
         </PaperProvider>
