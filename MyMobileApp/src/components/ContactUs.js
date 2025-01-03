@@ -3,3 +3,9 @@ import { useState } from 'react';
 import { Platform } from 'react-native';
 import { StyleSheet, View, ScrollView, KeyboardAvoidingView } from 'react-native';
 import { PaperProvider, Text, Divider, TextInput, Button } from 'react-native-paper';
+
+export default function ContactUs() {
+    return(
+
+    );
+}
