@@ -32,5 +32,22 @@ export default function Home() {
                 </View>
             </ScrollView>
         </PaperProvider>
-    )
+    );
 }
+
+const style = styleSheet.create({
+    conatiner: {
+        flexDirection: 'column',
+        backgroundColor: '#fff',
+        justifyContent: 'space-between',
+        padding: 10
+    },
+
+    body: {
+        padding: 8,
+        textalign: 'justify',
+    },
+    ScrollView: {
+        flexGrow: 1,
+    },
+});
